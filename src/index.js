@@ -2,16 +2,14 @@
 
 const copyFile = require('./utils/copyFile');
 const deleteCOde = require('./utils/deleteCode');
-const getFile = require('./utils/getFile');
+const init = require('./utils/init');
 const liveTyping = require('./utils/liveTyping');
- const getTypingSpeed = require('./utils/getTypingSpeed');
 
 const main = async () => {
-  const file = await getFile();
-  const typingSpeed = await getTypingSpeed();
+  const { file, wpm } = await init();
   const copyCOde = await copyFile(file);
   await deleteCOde(file);
-  liveTyping(file, copyCOde,typingSpeed);
+  liveTyping(file, copyCOde, wpm);
 };
 
 main();
