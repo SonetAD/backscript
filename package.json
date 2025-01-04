@@ -1,0 +1,37 @@
+{
+  "name": "backscript",
+  "version": "1.0.0",
+  "description": "Type the code once, let Backscript type it again.",
+  "main": "src/index.js",
+  "bin": {
+    "backscript": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonetAD/backscript.git"
+  },
+  "keywords": [
+    "backscript",
+    "code-retype",
+    "code-replay",
+    "coding-demo",
+    "coding-presentation",
+    "code-showcase",
+    "content-creator-tool",
+    "tutorial-assistant",
+    "live-coding-simulator",
+    "code-play-back"
+  ],
+  "author": "Sonet Adhikary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SonetAD/backscript/issues"
+  },
+  "homepage": "https://github.com/SonetAD/backscript#readme",
+  "dependencies": {
+    "commander": "^13.0.0"
+  }
+}
