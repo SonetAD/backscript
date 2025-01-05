@@ -16,6 +16,12 @@
 
 ---
 
+## Live Demo
+
+![Live Demo](DEMO.gif)
+
+---
+
 ## Installation
 
 To install BackScript, use npm:
@@ -55,18 +61,6 @@ npm install -g backscript
    ```bash
    backscript --help
    ```
-
----
-
-## Example
-
-Here is an example of BackScript in action:
-
-```bash
-backscript example.js --wpm 60
-```
-
-This command will retype the `example.js` file at a typing speed of 60 WPM.
 
 ---
 
