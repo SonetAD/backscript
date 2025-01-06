@@ -1,1 +1,6 @@
 DEMO.gif
+package-lock.json
+node_modules
+.git/
+.gitignore
+
