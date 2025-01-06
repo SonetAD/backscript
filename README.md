@@ -56,7 +56,7 @@ npm install -g backscript
    _This feature is under development and will be available in future updates._
 
 4. **Help Command**:
-   Display help information:
+   isDplay help information:
 
    ```bash
    backscript --help
@@ -80,7 +80,7 @@ BackScript is an open-source project, and I’m excited to invite contributors t
 
 ## Feedback and Support
 
-I’d love to hear from you! If you have feedback, feature requests, or encounter any issues, please open an issue on [GitHub](https://github.com/your-username/backscript/issues).
+I’d love to hear from you! If you have feedback, feature requests, or encounter any issues, please open an issue on [GitHub](https://github.com/SonetAD/backscript).
 
 ---
 
