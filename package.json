@@ -1,6 +1,6 @@
 {
   "name": "backscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type the code once, let Backscript type it again.",
   "main": "src/index.js",
   "bin": {
